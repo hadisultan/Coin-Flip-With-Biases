@@ -11,7 +11,7 @@ public class coinFlip {
 	}
 
 	public static int coinTosser(){
-		int ranber = (int)(Math.random()*(100));
+		int ranber = ((int)(Math.random()*(562431)))%100;
 		if(ranber <= headbias){
 			return 1;
 		}
